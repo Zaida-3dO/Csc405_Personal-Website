@@ -71,27 +71,27 @@ h1,h2,h3,h4,h5,h6,span {
     height: 100px;
     position: relative;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 50s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 50s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate;    
 }
 .showglass{
     overflow: hidden;
-  
+  height:150px;
 }
 
 .pics a img{
     border-radius: 50%;
-    height:100px;
+    height:150px;
 }
 .ring{
-    margin-left: -104px;
+    margin-left: -154px;
     height:105px;
-}
+} 
 /* Chrome, Safari, Opera 
 @-webkit-keyframes example {
     0%   { left:0vw; top:0px;}
@@ -116,12 +116,12 @@ h1,h2,h3,h4,h5,h6,span {
 */
 @-webkit-keyframes example {
     0%   { left:0vw; top:0px;}
-    50%{left:-30vw;top:0px;}
+    50%{left:-35vw;top:0px;}
     100% { left:0vw; top:0px;}
 }
 
 @keyframes  example {
     0%   { left:0vw; top:0px;}
-    50%{left:-30vw;top:0px;}
+    50%{left:-35vw;top:0px;}
     100% { left:0vw; top:0px;}
 }
