@@ -81,15 +81,15 @@ h1,h2,h3,h4,h5,h6,span {
 }
 .showglass{
     overflow: hidden;
-  height:150px;
+  height:120px;
 }
 
 .pics a img{
     border-radius: 50%;
-    height:150px;
+    height:120px;
 }
 .ring{
-    margin-left: -154px;
+    margin-left: -124px;
     height:105px;
 } 
 /* Chrome, Safari, Opera 
@@ -116,12 +116,18 @@ h1,h2,h3,h4,h5,h6,span {
 */
 @-webkit-keyframes example {
     0%   { left:0vw; top:0px;}
-    50%{left:-35vw;top:0px;}
+    50%{left:-30vw;top:0px;}
     100% { left:0vw; top:0px;}
 }
 
 @keyframes  example {
     0%   { left:0vw; top:0px;}
-    50%{left:-35vw;top:0px;}
+    50%{left:-30vw;top:0px;}
     100% { left:0vw; top:0px;}
+}
+.righthnd{
+    padding-right:40px;
+    float:right;
+    margin-top: -410px;
+    width: 40vw;
 }
